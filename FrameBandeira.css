@@ -1,0 +1,13 @@
+.frameBandeira{
+    background-color: #ccd0cf;
+    width: 326px;
+    height: 217px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+   
+}
+.frameBandeira img{
+    width:100%;
+    height:100%;
+}

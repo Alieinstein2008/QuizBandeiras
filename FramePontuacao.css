@@ -1,0 +1,23 @@
+.framePontuacao p{
+    display: inline;
+    color: #ffff;
+    margin-inline: 10%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter ;
+    
+    margin-top: 0px;
+    padding: 5px;
+    padding-top: 15px;
+    font-size: 1em;
+    
+    
+    
+}
+.framePontuacao{
+    
+   
+    text-align: center;
+    border-radius: 15px;
+    width: 85%;
+    
+}

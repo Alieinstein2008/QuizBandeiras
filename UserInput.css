@@ -1,0 +1,15 @@
+
+
+.frameInput{
+    width: fit-content;
+    height: fit-content;
+    
+    
+  }
+  .frameInput input{
+    
+    border: 3px solid #06141b;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    margin-top: 2.5%;
+  }

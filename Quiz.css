@@ -1,0 +1,121 @@
+
+body{
+    
+    background-color: black;
+}
+.Quiz{
+    width: 400px;
+    height: 500px;
+    margin: auto;                                    
+    display: block;
+    background-color:#06141b;
+    border: solid 5px #11212d;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Quiz #divTitulo{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 1.35rem;
+    border-right: 2.5px solid #ffff;
+    width: 21ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: piscarCursor 0.5s infinite,digitarAnimacao 5s alternate steps(22);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    
+}
+@keyframes piscarAcertoChute {
+    25%{
+        border-color: #00ff15;
+    }
+    50%{
+        border-color: #11212d;
+    }
+    75%{
+        border-color: #00ff15;
+    }
+    100%{
+        border-color: #11212d;
+    }
+
+}
+@keyframes piscarErroChute {
+    25%{
+        border-color: #ff0000;
+    }
+    50%{
+        border-color: #11212d;
+    }
+    75%{
+        border-color: #ff0000;
+    }
+    100%{
+        border-color: #11212d;
+    }
+}
+
+
+@keyframes piscarCursor {
+    50%{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes digitarAnimacao {
+    0%{
+        width: 0;
+    }
+    25%{
+        width: 21ch;
+    }
+    50%{
+        width: 21ch;
+    }
+    75%{
+        width: 2ch;
+    }
+    100%{
+        width: 21ch;
+    }
+}
+
+
+
+
+.frameButtons{
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.frameButtons button{
+    width: 100px;
+    height: 25px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #000000;
+   
+
+
+}
+#btngreen{
+    background-color: #00ff15;
+   
+}
+#btnred{
+    background-color: #ff0000;
+  
+   
+}
